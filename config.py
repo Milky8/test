@@ -1,5 +1,6 @@
 from linenotipy import Line
 import os
+import requests
 
 #Your Account
 ltuid = os.environ.get('LTUID')
