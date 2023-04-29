@@ -3,8 +3,8 @@ import os
 import requests
 
 #Your Account
-ltuid = os.environ.get(LTUID)
-ltoken = os.environ.get(LTOKEN)
+'ltuid' = os.environ.get(LTUID)
+'ltoken' = os.environ.get(LTOKEN)
 
 account_1 = {'ltuid': ltuid, 'ltoken': ltoken}
 
