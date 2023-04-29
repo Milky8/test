@@ -4,7 +4,7 @@ import requests
 
 #Your Account
 ltuid = os.environ.get(LTUID)
-'ltoken' = os.environ.get(LTOKEN)
+ltoken = os.environ.get(LTOKEN)
 
 account_1 = {'ltuid': ltuid, 'ltoken': ltoken}
 
