@@ -24,6 +24,11 @@ jobs:
         pip install flake8 pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
         pip install linenotipy
+      
+    - name: HoYoLAB Attend
+      env:
+        LTUID: ${{ secrets.LTUID }}
+        LTOKEN: ${{ secrets.LTOKEN }}
         
     - name: Checkout code
       uses: actions/checkout@v3
