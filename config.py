@@ -2,8 +2,8 @@ from linenotipy import Line
 import os
 
 #Your Account
-ltuid = os.environ.get('LTUID')
-ltoken = os.environ.get('LTOKEN')
+'ltuid' = os.environ.get('LTUID')
+'ltoken' = os.environ.get('LTOKEN')
 account_1 = {'ltuid': ltuid, 'ltoken': ltoken}
 
 #Line_Token
