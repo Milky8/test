@@ -133,7 +133,7 @@ for no in range(len(cookies)):
             title = 'Honkai: Star Rail Daily Login'
             color = 'A385DE'
             author_name = 'PomPom'
-            author_url = 'https://hsr.hoyoverse.com/th-th'
+            author_url = 'https://hsr.hoyoverse.com/en-us'
             author_icon = 'https://cdn.discordapp.com/attachments/1060849221378527263/1100953941522518076/hsr.png'
             hsr_list.append(["UID: {}".format(uid), "Nickname: {}".format(nickname), "Level: {}".format(level)])
         else:
