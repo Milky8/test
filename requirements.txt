@@ -1,0 +1,3 @@
+discord-webhook~=0.16.0
+requests~=2.27.1
+locales~=0.0.2
