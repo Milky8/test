@@ -24,4 +24,6 @@ jobs:
           LTOKEN: ${{ secrets.LTOKEN }}
         run: |
           pip install -r requirements.txt
+          pip install flake8 pytest
+          pip install linenotipy
           python3 ./hoyolab.py
